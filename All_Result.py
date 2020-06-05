@@ -3,11 +3,12 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 import time
 
+# in this script it will only take screenshots from reg no 006 to 010.
+# you may extend this further.
 
 driver = webdriver.Firefox()
 driver.get('https://onlinesggs.org/app/web/')
 
-#s = '001002003004005006007008009010'
 s = '006007008009010'
 
 for i in range(5):
